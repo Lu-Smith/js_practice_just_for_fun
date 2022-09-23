@@ -224,6 +224,19 @@ main div {
     --rotation: 0deg;
 }
 
+.clock .hand {
+    --rotation: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 48.5%; 
+    width: 10px;
+    height: 45%;
+    background-color: black;
+    transform-origin: bottom;
+    transform: rotate(calc(var(--rotation) * 1deg));
+
+}
+
 footer {
     background-color: #2c786c;
     color: #faf5e4;
