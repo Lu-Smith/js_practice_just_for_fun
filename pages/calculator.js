@@ -2,21 +2,28 @@ class Calculator {
     constructor(previousOperandElement, currentOperandElement){
        this.previousOperandElement = previousOperandElement;
        this.currentOperandElement = currentOperandElement;
+       this.clear();
     }
     clear() {
+        this.currentOperand = '';
+        this.previousOperand = '';
+        this.operation = undefined;
 
     }
     delate() {
 
     }
-    appendNumber() {
+    appendNumber(number) {
 
     }
-    chooseOperation() {
+    chooseOperation(operation) {
 
     }
     compute() {
-        
+
+    }
+    updateDisplay() {
+
     }
 }
 
