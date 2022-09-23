@@ -55,7 +55,7 @@ header a {
 }
 
 .calculator-grid > button:hover {
-    background-color: #9fd3c7;
+    background-color: rgb(155, 221, 177);
 }
 
 .span-two {
@@ -64,7 +64,7 @@ header a {
 
 .output {
     grid-column: 1 / -1;
-    background-color: black;
+    background-color: #6aa08e;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -76,7 +76,7 @@ header a {
 }
 
 .output .previous-operand {
-    color: grey;
+    color: rgb(48, 47, 47);
     font-size: 24px;
 }
 
