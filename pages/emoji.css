@@ -15,10 +15,6 @@ header {
     background-color: #2c786c;
     color: #faf5e4;
     font-family: 'Josefin Sans', sans-serif;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 header h1 {
@@ -34,6 +30,10 @@ header a {
     line-height: 35px;
     background-color: #faf5e4;
     border-radius: 10px;
+    position: fixed; 
+    top: 10px;
+    right: 10px;
+    color: #004445;;
 }
 
 main {
