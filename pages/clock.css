@@ -236,6 +236,20 @@ main div {
     transform: rotate(calc(var(--rotation) * 1deg));
 }
 
+.clock::after {
+    content: "";
+    position: absolute;
+    background-color: #ff9a3c;;
+    z-index: 11;
+    width: 30px;
+    height: 30px;
+    left: 49.5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+
+}
+
 .clock .hand.second {
     width: 5px;
     height: 47%;
@@ -246,7 +260,7 @@ main div {
 .clock .hand.minute {
     width: 8px;
     height: 42%;
-    background-color: rgb(37, 2, 2);
+    background-color: black;
     left: 48%;
 }
 
