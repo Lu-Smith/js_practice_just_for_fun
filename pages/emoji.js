@@ -14,3 +14,21 @@ openFlower.addEventListener('click', () => {
           openFlower.classList.remove('active');
     }
 })
+
+
+const closedBee = document.getElementById('closed-bee');
+const openBee = document.getElementById('open-bee');
+
+closedBee.addEventListener('click', () => {
+    if(openBee.classList.contains('open')) {
+          openBee.classList.add('active');
+          closedBee.classList.remove('active');
+    }
+});
+
+openBee.addEventListener('click', () => {
+    if(closedBee.classList.contains('closed')) {
+          closedBee.classList.add('active');
+          openBee.classList.remove('active');
+    }
+})
