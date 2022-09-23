@@ -227,14 +227,34 @@ main div {
 .clock .hand {
     --rotation: 0;
     position: absolute;
-    bottom: 50%;
-    left: 48.5%; 
-    width: 10px;
-    height: 45%;
+    bottom: 50%; 
     background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     transform-origin: bottom;
+    z-index: 10;
     transform: rotate(calc(var(--rotation) * 1deg));
+}
 
+.clock .hand.second {
+    width: 5px;
+    height: 47%;
+    background-color: red;
+    left: 48.5%;
+}
+
+.clock .hand.minute {
+    width: 8px;
+    height: 42%;
+    background-color: rgb(37, 2, 2);
+    left: 48%;
+}
+
+.clock .hand.hour {
+    width: 12px;
+    height: 35%;
+    background-color: rgb(2, 2, 2);
+    left: 47.5%;
 }
 
 footer {
