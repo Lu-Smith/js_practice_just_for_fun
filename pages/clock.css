@@ -49,11 +49,12 @@ main div {
 }
 
 .clock {
+    margin: 150px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
     border: 6px solid gold;
-    background-color: #ff9a3c;
+    background: radial-gradient(closest-side, #ff9a3c, #ebf8e1, #f69d3c);
     position: relative;
 }
 
@@ -65,6 +66,7 @@ main div {
     text-align: center;
     transform: rotate(var(--rotation));
     padding: 10px;
+    color: white;
 }
 
 .clock .number1 {
@@ -99,6 +101,127 @@ main div {
 }
 .clock .number11 {
     --rotation: 330deg;
+}
+
+.clock .number13 {
+    color: gold;
+    padding: 0;
+    position: relative;
+    top: -70px;
+    right: -45px;
+    font-weight: 900;
+    font-size: 40px;
+    --rotation: 30deg;
+}
+.clock .number14 {
+    color: gold;
+    padding: 0;
+    position: relative;
+    top: -330px;
+    right: -75px;
+    font-weight: 900;
+    font-size: 40px;
+    --rotation: 60deg;
+}
+.clock .number15 {
+    color: gold;
+    padding: 0;
+    position: relative;
+    top: -580px;
+    right: -85px;
+    font-weight: 900;
+    font-size: 40px;
+    --rotation: 90deg;
+}
+.clock .number16 {
+    color: gold;
+    padding: 0;
+    position: relative;
+    top: -820px;
+    right: -80px;
+    font-weight: 900;
+    font-size: 40px;
+    --rotation: 120deg;
+}
+.clock .number17 {
+    color: gold;
+    padding: 0;
+    position: relative;
+    top: -1080px;
+    right: -45px;
+    font-weight: 900;
+    font-size: 40px;
+    --rotation: 150deg;
+}
+.clock .number18 {
+    color: gold;
+    padding: 0;
+    position: relative;
+    top: -1360px;
+    right: 0;
+    font-weight: 900;
+    font-size: 40px;
+    --rotation: 180deg;
+}
+.clock .number19 {
+    color: gold;
+    padding: 0;
+    position: relative;
+    top: -1660px;
+    right: 45px;
+    font-weight: 900;
+    font-size: 40px;
+    --rotation: 210deg;
+}
+.clock .number20 {
+    color: gold;
+    padding: 0;
+    position: relative;
+    top: -1980px;
+    right: 75px;
+    font-weight: 900;
+    font-size: 40px;
+    --rotation: 240deg;
+}
+.clock .number21 {
+    color: gold;
+    padding: 0;
+    position: relative;
+    top: -2310px;
+    right: 80px;
+    font-weight: 900;
+    font-size: 40px;
+    --rotation: 270deg;
+}
+.clock .number22 {
+    color: gold;
+    padding: 0;
+    position: relative;
+    top: -2640px;
+    right: 65px;
+    font-weight: 900;
+    font-size: 40px;
+    --rotation: 300deg;
+}
+.clock .number23 {
+    color: gold;
+    padding: 0;
+    position: relative;
+    top: -2955px;
+    right: 35px;
+    font-weight: 900;
+    font-size: 40px;
+    --rotation: 330deg;
+}
+.clock .number24 {
+    color: gold;
+    padding: 0;
+    position: relative;
+    top: -3250px;
+    right: 0;
+    font-weight: 900;
+    font-size: 40px;
+    --rotation: 0deg;
 }
 
 footer {
