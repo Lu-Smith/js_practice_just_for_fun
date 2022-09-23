@@ -36,21 +36,14 @@ header a {
     color: #004445;;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-}
-
 .calculator-grid {
+    margin-top: 90px;
     display: grid;
     justify-content: center;
-    align-items: center;
-    min-height: 74vh;
+    align-content: center;
+    min-height: 75vh;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto), repeat(5, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
 .calculator-grid > button {
@@ -61,6 +54,9 @@ main {
     background-color: beige;
 }
 
+.calculator-grid > button:hover {
+    background-color: rgb(240, 231, 192);
+}
 
 
 footer {
