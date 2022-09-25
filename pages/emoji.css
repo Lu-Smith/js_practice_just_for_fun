@@ -36,13 +36,18 @@ header a {
     color: #004445;;
 }
 
+h2 {
+    margin-top: 20px;
+    font-style: italic;
+}
+
 main {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 50px;
-    margin: 75.5px 50px;
+    margin: 49px 50px;
 }
 
 main div img{
