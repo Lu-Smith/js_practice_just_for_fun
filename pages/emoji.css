@@ -52,8 +52,11 @@ main {
 
 main div img{
     width: 400px;
+    height: 480px;
+    object-fit:contain;
     cursor: pointer;
     user-select: none;
+    padding: 15px;
 }
 
 .closed {
@@ -85,3 +88,12 @@ footer a {
 footer a:hover {
     color: #f7e8b8;
 }
+
+
+@media only screen and (max-width: 820px) {
+    main {
+        flex-direction: column;
+        padding: 0 50px;
+        margin: 0 50px;
+    }
+  }
