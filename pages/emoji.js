@@ -32,3 +32,38 @@ openBee.addEventListener('click', () => {
           openBee.classList.remove('active');
     }
 })
+
+
+const closedApple = document.getElementById('closed-apple');
+const openApple = document.getElementById('open-apple');
+
+closedApple.addEventListener('click', () => {
+    if(openApple.classList.contains('open')) {
+          openApple.classList.add('active');
+          closedApple.classList.remove('active');
+    }
+});
+
+openApple.addEventListener('click', () => {
+    if(closedApple.classList.contains('closed')) {
+          closedApple.classList.add('active');
+          openApple.classList.remove('active');
+    }
+})
+
+const closedElf = document.getElementById('closed-elf');
+const openElf = document.getElementById('open-elf');
+
+closedElf.addEventListener('click', () => {
+    if(openElf.classList.contains('open')) {
+          openElf.classList.add('active');
+          closedElf.classList.remove('active');
+    }
+});
+
+openElf.addEventListener('click', () => {
+    if(closedElf.classList.contains('closed')) {
+          closedElf.classList.add('active');
+          openElf.classList.remove('active');
+    }
+})
