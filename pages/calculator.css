@@ -26,8 +26,8 @@ header h1 {
 
 header a {
     text-decoration: none;
-    padding: 8px 15px;
-    font-size: 20px;
+    padding: 4px 15px;
+    font-size: 24px;
     line-height: 35px;
     background-color: #faf5e4;
     border-radius: 10px;
@@ -36,6 +36,12 @@ header a {
     right: 10px;
     color: #004445;;
 }
+
+h2 {
+    margin-top: 20px;
+    font-style: italic;
+}
+
 
 .calculator-grid {
     display: grid;
@@ -87,6 +93,9 @@ header a {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #2c786c;
     color: #faf5e4;
     padding: 20px 0;
@@ -103,3 +112,34 @@ footer a {
 footer a:hover {
     color: #f7e8b8;
 }
+
+
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .calculator-grid {
+        grid-template-columns: repeat(4, 80px);
+        grid-template-rows: minmax(120px, auto) repeat(5, 80px);
+    }
+    
+    .calculator-grid > button {
+        font-size: 24px;
+    }
+
+    .output .previous-operand {
+        font-size: 22px;
+    }
+    
+    .output .current-operand {
+        font-size: 34px;
+    }
+
+    footer {
+        padding: 15px 0;
+        font-size: 16px;
+        line-height: 22px;
+    }
+  }

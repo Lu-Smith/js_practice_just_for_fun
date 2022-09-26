@@ -69,6 +69,9 @@ main img {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #2c786c;
     color: #faf5e4;
     padding: 20px 0;
@@ -86,3 +89,39 @@ footer a:hover {
     color: #f7e8b8;
 }
 
+
+
+@media only screen and (max-width: 480px) {
+    main {
+        padding: 10px;
+    }
+    
+    main a {
+        border-radius: 15px;
+        width: 300px;
+        height: 300px;
+        margin-bottom: 10px;
+        box-shadow: 3px 3px 3px rgba(0, 0 , 0, 0.5);
+    }
+    
+    main a:hover {
+        border: 3px solid #995906;
+        width: 320px;
+        height: 320px;
+    }
+
+    main h4 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    
+    main img {
+        width: 180px;
+    }
+
+    footer {
+        padding: 15px 0;
+        font-size: 16px;
+        line-height: 22px;
+    }
+  }
